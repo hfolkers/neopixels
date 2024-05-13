@@ -1,0 +1,67 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="hII)H6Kx3SK#:Vm3EPuR">waarde</variable><variable id="%D%!xjqsPLTBtoqc:NU^">list</variable><variable id="eR;CDRy3r65tgjl{lRGc">strip</variable><variable id="wk=0SJK^h*tqwC9~V-O@">neopixels</variable><variable id="NYH=g^@pyMaPy*RY4+j,">index</variable></variables><block type="device_forever" id="yzK+AL`CU6Ymqmfa=_zN" x="475" y="-54"><statement name="HANDLER"><block type="device_set_digital_pin" id="myjHQfD4@X@R81Vanvy9"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="#df+~cxgTENJ_G{oAW!t"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="device_pause" id="+r,b_Zq_p!rXr,sq`+Q#"><value name="pause"><shadow type="timePicker" id="$CLSaW0h1x]vG?NNmNEo"><field name="ms">500</field></shadow></value><next><block type="device_set_digital_pin" id="+,n%$;KB{}NYDj5Iyz:w"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="auW;gRc`kRtqMC;4+e7s"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="uCNkHUcB=YN?PcVy{E*L"><value name="pause"><shadow type="timePicker" id=";`sTjNKwd-N.FY7,W+Q*"><field name="ms">500</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="-*T}~8uFhFB;~_db.QIV" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="rjNR_664lP?i8AJ`r9dD"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . .
+        `</field><next><block type="device_show_leds" id="YA|A|5Vs;:,)4~7]ydks"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # . . .
+        `</field><next><block type="device_show_leds" id="h|JAB%:_S|%B!#AL%9CW"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # . .
+        `</field><next><block type="device_show_leds" id="vf*$0;HZj+{3X5^l8{8s"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # .
+        `</field><next><block type="device_show_leds" id="]H}|~rzw-#Eu7LWoeNo%"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="x`z5GukkA0DkjP]yWu%B"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # . . . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="+vcRh,zEbZ,(h]g6)Owa"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # # . . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="eHqYlr#26bT8qKY?2cyz"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="LQ[$v[O6Kr{CI[0L=f$Q"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="$_:Nxby8yNp!AEsnbU`m"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="snF,^Jf0kdb6KBSn+aya"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # # # # #
+        `</field><next><block type="music_playable_play" id="MLIia2r53!J)l(e*k`d?"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="rqFJ}u^eZ^7a:+^0KGoW"><value name="note"><shadow type="device_note" id="yN}k^=n+ugn[kpW9q}z^"><field name="name">999</field></shadow></value><value name="duration"><shadow type="device_beat" id="NM2tB+p!Vx|E(tcf4)3r"><field name="fraction">BeatFraction.Whole</field></shadow></value></shadow></value><next><block type="device_clear_display" id="QWsEp*.y[uSv/6,4HR-:"><next><block type="variables_set" id="_[0wDY8Ic),4Uho_[^3L"><field name="VAR" id="wk=0SJK^h*tqwC9~V-O@">neopixels</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="neopixel_create" id="Nbp}NP+Na@NpG1v$%EBu"><field name="pin">DigitalPin.P2</field><field name="mode">NeoPixelMode.RGB</field><value name="numleds"><shadow type="math_number" id="xaIN)y)Nu3ZE1A1C:-pR"><field name="NUM">4</field></shadow></value></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="DPW^*N^2,JN@o!PScIf$" x="471" y="279"><statement name="HANDLER"><block type="device_pause" id="2P{:x.kQTUJ!Xc~trJno"><value name="pause"><shadow type="timePicker" id="|bW{QrXRXJ_(8$YTDbe?"><field name="ms">500</field></shadow></value><next><block type="device_set_digital_pin" id="$1aaHo4czA^.X8]`fr=h"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="_4`c#`-bv-om0sq!oo@K"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="device_pause" id="V]t-k(;Pv@j-9tI_@u#f"><value name="pause"><shadow type="timePicker" id="H,#VqH9Fj{}7qRC/s~g:"><field name="ms">500</field></shadow></value><next><block type="device_set_digital_pin" id="3psmA]8{{uQP+$f~KmK;"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="kD_w~~fQqmME5wFN9z@C"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="neopixel_set_strip_color" id="{3WSFiRt?{rVr+9lX?m9" disabled="true" x="272" y="1828"><value name="strip"><block type="variables_get" id="n(rng8uy(UOtJ-malL6%" disabled="true"><field name="VAR" id="eR;CDRy3r65tgjl{lRGc">strip</field></block></value><value name="rgb"><shadow type="neopixel_colors" id="ya7fg#^_dI+8GSLEg{8#" disabled="true"><field name="color">NeoPixelColors.Red</field></shadow></value></block><block type="device_forever" id="U{-T|8E*O,uXb(dY}|.a" x="9" y="2767"><statement name="HANDLER"><block type="pxt_controls_for" id="7L/L1{F1+f:|yi,OI/pa"><value name="VAR"><shadow type="variables_get_reporter" id="1SpD0=5Joyl9M!I;q)l+"><field name="VAR" id="NYH=g^@pyMaPy*RY4+j,">index</field></shadow></value><value name="TO"><shadow type="math_whole_number" id="`z:rG#r9w62Ie#bdQ4rU"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="neopixel_set_pixel_color" id="=Rge0EjQe$=[s]c#*@Xg"><value name="strip"><block type="variables_get" id="BZ*oJ[+%ijtjuz:8sLM0"><field name="VAR" id="wk=0SJK^h*tqwC9~V-O@">neopixels</field></block></value><value name="pixeloffset"><shadow type="math_number"><field name="NUM">2</field></shadow><block type="variables_get" id="s`VfIsJQAuRVoSPTI5)G"><field name="VAR" id="NYH=g^@pyMaPy*RY4+j,">index</field></block></value><value name="rgb"><shadow type="neopixel_colors" id="seOUY1nI=634]A`8F0M1"><field name="color">NeoPixelColors.Green</field></shadow></value><next><block type="neopixel_show" id="x_AK+yF(znCR(hw:FLp-"><value name="strip"><block type="variables_get" id="T:g}Q_IU{6;nFj0gn+iC"><field name="VAR" id="wk=0SJK^h*tqwC9~V-O@">neopixels</field></block></value><next><block type="device_pause" id="y7ple/.Le^WMjvzyVtN-"><value name="pause"><shadow type="timePicker" id="l;4!A?TtQ3R4=Q`5b!_d"><field name="ms">100</field></shadow></value><next><block type="neopixel_clear" id="K#[*SX2nA#+oMGndOCr1"><value name="strip"><block type="variables_get" id="+bdJ;h6ZRb@N3W/X3}a%"><field name="VAR" id="wk=0SJK^h*tqwC9~V-O@">neopixels</field></block></value></block></next></block></next></block></next></block></statement></block></statement></block></xml>
